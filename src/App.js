@@ -43,8 +43,7 @@ const App = () => {
     <div className="container p-5">
       <Nav />
       <br />
-      <h1>MERN CRUD SAMPLE</h1>
-      <h3>Test</h3>
+      <h1>MERN CRUD - SAMPLE APPLICATION</h1>
       <br />
       {posts.map((post, i) => (
         <div className="row" key={post._id} style={{ borderBottom: '1px solid silver' }}>
