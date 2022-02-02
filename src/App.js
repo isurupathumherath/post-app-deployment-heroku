@@ -44,6 +44,7 @@ const App = () => {
       <Nav />
       <br />
       <h1>MERN CRUD - SAMPLE APPLICATION</h1>
+      <h4>Isuru Pathum Herath</h4>
       <br />
       {posts.map((post, i) => (
         <div className="row" key={post._id} style={{ borderBottom: '1px solid silver' }}>
