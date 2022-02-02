@@ -64,8 +64,8 @@ const App = () => {
                 <Link to={`/post/update/${post.slug}`} className="btn btn-sm btn-outline-warning">
                   Update
                 </Link>
-//                 <button id="myBtn" onClick={() => deleteConfirm(post.slug)} className="btn btn-sm btn-outline-danger ml-1">Delete</button>
-                <button id="myBtn" onClick={} className="btn btn-sm btn-outline-danger ml-1">Delete</button>
+//                 <button onClick={() => deleteConfirm(post.slug)} className="btn btn-sm btn-outline-danger ml-1">Delete</button>
+                <button className="btn btn-sm btn-outline-danger ml-1">Delete</button>
 
               </div>
             </div>
