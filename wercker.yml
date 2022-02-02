@@ -16,8 +16,9 @@ deploy:
         app-name: $HEROKU_APP_NAME  
         
 after-steps:
-        - slack-notifier:
-            url: $SLACK_URL
-            channel: notifications
-            username: werckerbot
+  steps:
+    - slack-notifier:
+        url: $SLACK_URL
+        channel: notifications
+        username: werckerbot
                       
