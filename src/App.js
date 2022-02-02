@@ -65,12 +65,7 @@ const App = () => {
                   Update
                 </Link>
 //                 <button id="myBtn" onClick={() => deleteConfirm(post.slug)} className="btn btn-sm btn-outline-danger ml-1">Delete</button>
-                <button id="myBtn" onClick={() => myFunction()} className="btn btn-sm btn-outline-danger ml-1">Delete</button>
-                <script>
-                  function myFunction() {
-                    document.getElementById("myBtn").disabled = true;
-                  }
-                </script>
+                <button id="myBtn" onClick={} className="btn btn-sm btn-outline-danger ml-1">Delete</button>
 
               </div>
             </div>
